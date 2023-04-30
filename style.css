@@ -18,16 +18,17 @@ h1 {
 }
 
 #game-board {
-    display: flex;
-    flex-wrap: wrap;
     height: 300px;
     width: 300px;
+    position: relative;
 }
 
 .tile {
+    position: absolute;
     border: 1px solid white;
     height: 100px;
     width: 100px;
     color: white;
     font-size: 25px;
+    transition: top 0.2s linear, left 0.2s linear;
 }
