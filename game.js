@@ -12,6 +12,9 @@ function render(gameBoard, gameState) {
     row.forEach((column, columnIndex) => {
         column.style.top = `${rowIndex * 100}px`;
         column.style.left = `${columnIndex * 100}px`;
+
+        column.style['background-position-y'] = `-${rowIndex*100}px`;
+        column.style['background-position-x'] = `-${columnIndex*100}px`;
       gameBoard.appendChild(column);
     });
   });
