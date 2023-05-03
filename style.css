@@ -1,40 +1,40 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #1b1b1b;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-color: #1b1b1b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #game-board {
-    height: 300px;
-    width: 300px;
-    position: relative;
+  height: 300px;
+  width: 300px;
+  position: relative;
 }
 
 .tile {
-    position: absolute;
-    border: 1px solid white;
-    height: 100px;
-    width: 100px;
-    color: transparent;
-    font-size: 25px;
-    transition: top 0.2s linear, left 0.2s linear;
-    background: url(images/Unicorn.png);
+  position: absolute;
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  color: transparent;
+  font-size: 25px;
+  transition: top 0.2s linear, left 0.2s linear;
+  background: url(images/Unicorn.png);
 }
 
 .tile:last-of-type {
-    background: none;
-    border: none;
+  background: none;
+  border: none;
 }
